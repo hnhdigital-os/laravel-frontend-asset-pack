@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Redactor.
  *
- * @link 
+ * @link
  */
 class Redactor extends PackageAbstract
 {
@@ -59,7 +59,7 @@ class Redactor extends PackageAbstract
      * Buttons.
      *
      * @param string $element
-     * @param array $buttons
+     * @param array  $buttons
      *
      * @return string
      */

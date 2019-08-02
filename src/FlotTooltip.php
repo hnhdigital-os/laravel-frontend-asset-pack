@@ -2,8 +2,6 @@
 
 namespace HnhDigital\LaravelFrontendAssetPack;
 
-use FrontendAsset;
-
 class FlotTooltip extends PackageAbstract
 {
     /**

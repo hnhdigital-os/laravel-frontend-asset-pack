@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * TimeInput.
  *
- * @link 
+ * @link
  */
 class TimeInput extends PackageAbstract
 {

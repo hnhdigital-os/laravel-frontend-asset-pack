@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * TextDiff.
  *
- * @link 
+ * @link
  */
 class TextDiff extends PackageAbstract
 {

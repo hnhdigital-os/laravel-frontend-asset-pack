@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * IcheckInput.
  *
- * @link 
+ * @link
  */
 class IcheckInput extends PackageAbstract
 {

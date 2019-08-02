@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * ChartJs.
  *
- * @link 
+ * @link
  */
 class ChartJs extends PackageAbstract
 {

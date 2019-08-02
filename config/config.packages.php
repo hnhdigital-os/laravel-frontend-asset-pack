@@ -22,10 +22,10 @@ return [
     'Flot'                    => [Assets\Flot::class, '0.8.3'],
     'FlotTooltop'             => [Assets\FlotTooltop::class, '0.8.7'],
     'GoogleMaps'              => [
-        'class' => Assets\GoogleMaps::class,
+        'class'   => Assets\GoogleMaps::class,
         'plugins' => [
             'MarkerClusterer' => '1.0.0',
-        ]
+        ],
     ],
     'GoogleAnalytics'         => [Assets\GoogleAnalytics::class],
     'GoogleRecaptcha'         => [Assets\GoogleRecaptcha::class],
@@ -33,15 +33,15 @@ return [
     'IcheckInput'             => [Assets\IcheckInput::class, '1.0.2'],
     'IfVisibleJs'             => [Assets\IfVisibleJs::class, '1.0.6'],
     'Jquery'                  => [
-        'class' => Assets\Jquery::class,
-        'version' => '3.4.1', 
-        'integrity' => 'sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo='
+        'class'     => Assets\Jquery::class,
+        'version'   => '3.4.1',
+        'integrity' => 'sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=',
     ],
     'JqueryUi'                => [
-        'class' => Assets\JqueryUi::class,
-        'version' => '1.12.1', 
+        'class'     => Assets\JqueryUi::class,
+        'version'   => '1.12.1',
         'integrity' => [
-            'jquery-ui.min.js' => 'sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=',
+            'jquery-ui.min.js'             => 'sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=',
             'smoothness-jquery-ui.min.css' => 'sha256-vpKTO4Ob1M4bZ8RAvZvYMtinMz1XjH0QYdAO2861V9M=',
         ],
         'theme' => 'smoothness',
@@ -71,7 +71,7 @@ return [
     'TimeInput'               => [Assets\TimeInput::class, '1.11.13'],
     'Translations'            => [Assets\Translations::class],
     'TuiEditor'               => [
-        'class' => Assets\TuiEditor::class,
+        'class'   => Assets\TuiEditor::class,
         'version' => '1.2.5',
         'plugins' => [
             'CodeSnippet' => '1.3.0',

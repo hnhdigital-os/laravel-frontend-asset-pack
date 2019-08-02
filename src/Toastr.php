@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Toastr.
  *
- * @link 
+ * @link
  */
 class Toastr extends PackageAbstract
 {

@@ -8,7 +8,7 @@ use Stripe\Stripe as StripeApi;
 /**
  * Stripe.
  *
- * @link 
+ * @link
  */
 class Stripe extends PackageAbstract
 {

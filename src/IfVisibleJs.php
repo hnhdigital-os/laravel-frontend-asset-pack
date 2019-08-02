@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * IfVisibleJs.
  *
- * @link 
+ * @link
  */
 class IfVisibleJs extends PackageAbstract
 {

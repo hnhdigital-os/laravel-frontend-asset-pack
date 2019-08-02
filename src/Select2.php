@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Select2.
  *
- * @link 
+ * @link
  */
 class Select2 extends PackageAbstract
 {

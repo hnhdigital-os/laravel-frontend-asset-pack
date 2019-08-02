@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Element Transitions.
  *
- * @link 
+ * @link
  */
 class ElementTransitions extends PackageAbstract
 {

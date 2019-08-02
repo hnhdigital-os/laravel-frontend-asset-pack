@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Element Transitions.
  *
- * @link 
+ * @link
  */
 class FontAwesome extends PackageAbstract
 {

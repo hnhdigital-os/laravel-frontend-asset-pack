@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * SquireRte.
  *
- * @link 
+ * @link
  */
 class SquireRte extends PackageAbstract
 {

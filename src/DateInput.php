@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * DateInput.
  *
- * @link 
+ * @link
  */
 class DateInput extends PackageAbstract
 {

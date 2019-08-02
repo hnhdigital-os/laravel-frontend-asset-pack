@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * ValidateInput.
  *
- * @link 
+ * @link
  */
 class ValidateInput extends PackageAbstract
 {

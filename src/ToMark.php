@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * ToMark.
  *
- * @link 
+ * @link
  */
 class ToMark extends PackageAbstract
 {
