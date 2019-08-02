@@ -58,10 +58,12 @@ class Toastr extends PackageAbstract
     /**
      * Toastr config.
      *
-     * @return array
+     * @param array $customizations
+     *
+     * @return string
      */
-    public function config($customizations = [])
+    public static function renderConfig($customizations = [])
     {
-        return htmlentities(json_encode(array_merge(self::$default_config, $customizations)));
+        return htmlentities(json_encode(array_merge(static::$default_config, $customizations)));
     }
 }
