@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Ladda.
  *
- * @link 
+ * @link
  */
 class Ladda extends PackageAbstract
 {

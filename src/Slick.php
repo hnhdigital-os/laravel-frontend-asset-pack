@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Slick.
  *
- * @link 
+ * @link
  */
 class Slick extends PackageAbstract
 {

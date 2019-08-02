@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * TimePickerInput.
  *
- * @link 
+ * @link
  */
 class TimePickerInput extends PackageAbstract
 {

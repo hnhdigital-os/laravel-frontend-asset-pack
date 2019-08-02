@@ -31,6 +31,6 @@ class Jquery extends PackageAbstract
      */
     public function local()
     {
-        $this->add('vendor/jquery.js', 'header');    
+        $this->add('vendor/jquery.js', 'header');
     }
 }

@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Slimscroll.
  *
- * @link 
+ * @link
  */
 class Slimscroll extends PackageAbstract
 {

@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * MetisMenu.
  *
- * @link 
+ * @link
  */
 class MetisMenu extends PackageAbstract
 {

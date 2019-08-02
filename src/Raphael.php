@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Raphael.
  *
- * @link 
+ * @link
  */
 class Raphael extends PackageAbstract
 {

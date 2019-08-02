@@ -2,12 +2,10 @@
 
 namespace HnhDigital\LaravelFrontendAssetPack;
 
-use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
-
 /**
  * Translations.
  *
- * @link 
+ * @link
  */
 class Translations
 {

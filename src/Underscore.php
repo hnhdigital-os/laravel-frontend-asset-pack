@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Underscore.
  *
- * @link 
+ * @link
  */
 class Underscore extends PackageAbstract
 {

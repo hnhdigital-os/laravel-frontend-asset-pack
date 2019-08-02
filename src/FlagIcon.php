@@ -15,7 +15,7 @@ class FlagIcon extends PackageAbstract
      * Show the given glag.
      *
      * @param string $country_code
-     * @param boolean $version
+     * @param bool   $version
      *
      * @return string
      */

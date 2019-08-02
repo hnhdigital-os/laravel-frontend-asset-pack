@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * MarkdownIt.
  *
- * @link 
+ * @link
  */
 class MarkdownIt extends PackageAbstract
 {

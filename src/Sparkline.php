@@ -10,7 +10,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
  * @link https://jqueryui.com/
  */
 class Sparkline extends PackageAbstract
-{   
+{
     /**
      * Load before.
      *

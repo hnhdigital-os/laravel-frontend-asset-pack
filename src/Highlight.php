@@ -5,7 +5,7 @@ namespace HnhDigital\LaravelFrontendAssetPack;
 use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 
 /**
- * Highlight
+ * Highlight.
  *
  * @link
  */
@@ -33,13 +33,13 @@ class Highlight extends PackageAbstract
 
     /**
      * Load a languages.
-     * 
+     *
      * @param array $config
      *
      * @return void
      */
     public function config($config)
-    {        
+    {
         foreach (Arr::get($config, 'languages', []) as $language) {
             $this->addLanguage($language);
         }

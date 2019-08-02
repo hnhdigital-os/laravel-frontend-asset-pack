@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Bootstrap.
  *
- * @link 
+ * @link
  */
 class CodeMirror extends PackageAbstract
 {

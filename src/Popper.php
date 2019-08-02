@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Popper.
  *
- * @link 
+ * @link
  */
 class Popper extends PackageAbstract
 {

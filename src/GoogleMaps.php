@@ -8,7 +8,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Google Maps.
  *
- * @link 
+ * @link
  */
 class GoogleMaps extends PackageAbstract
 {

@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * VideoJs.
  *
- * @link 
+ * @link
  */
 class VideoJs extends PackageAbstract
 {

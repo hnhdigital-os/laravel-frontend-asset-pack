@@ -8,7 +8,7 @@ use Html;
 /**
  * DateInput.
  *
- * @link 
+ * @link
  */
 class Dropzone extends PackageAbstract
 {
@@ -68,7 +68,7 @@ class Dropzone extends PackageAbstract
     /**
      * Options for Dropzone.
      *
-     * @param array $options 
+     * @param array $options
      *
      * @return string
      */

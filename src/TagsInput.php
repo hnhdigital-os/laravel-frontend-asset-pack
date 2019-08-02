@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * TagsInput.
  *
- * @link 
+ * @link
  */
 class TagsInput extends PackageAbstract
 {

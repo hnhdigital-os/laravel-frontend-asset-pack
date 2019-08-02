@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Google Recaptcha.
  *
- * @link 
+ * @link
  */
 class GoogleRecaptcha extends PackageAbstract
 {
@@ -32,7 +32,7 @@ class GoogleRecaptcha extends PackageAbstract
         ]);
 
         $this->meta('g-recaptcha-sitekey', [
-            'content' => $this->version()
+            'content' => $this->version(),
         ]);
     }
 }

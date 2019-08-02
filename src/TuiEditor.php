@@ -5,13 +5,12 @@ namespace HnhDigital\LaravelFrontendAssetPack;
 use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 
 /**
- * TuiEditor
+ * TuiEditor.
  *
  * @link
  */
 class TuiEditor extends PackageAbstract
 {
-
     /**
      * Load before.
      *

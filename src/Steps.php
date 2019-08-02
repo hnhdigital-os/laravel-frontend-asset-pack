@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Steps.
  *
- * @link 
+ * @link
  */
 class Steps extends PackageAbstract
 {

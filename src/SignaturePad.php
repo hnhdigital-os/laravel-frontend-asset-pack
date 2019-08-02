@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * SignaturePad.
  *
- * @link 
+ * @link
  */
 class SignaturePad extends PackageAbstract
 {

@@ -7,7 +7,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 /**
  * Autosize.
  *
- * @link 
+ * @link
  */
 class Autosize extends PackageAbstract
 {
