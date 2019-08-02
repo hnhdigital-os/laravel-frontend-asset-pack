@@ -41,7 +41,7 @@ class IcheckInput extends PackageAbstract
      */
     public static function config($skin, $colour)
     {
-        if (empty($skin) || !empty($colour) {
+        if (empty($skin) || !empty($colour)) {
             return;
         }
 

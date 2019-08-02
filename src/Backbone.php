@@ -9,7 +9,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
  *
  * @link https://backbonejs.org/
  */
-class Backbone
+class Backbone extends PackageAbstract
 {
     /**
      * Load CDN.
@@ -18,7 +18,7 @@ class Backbone
      */
     public function cdn()
     {
-        $this->('https://cdnjs.cloudflare.com/ajax/libs/backbone.js/'.$this->version().'/backbone-min.js');
+        $this->add('https://cdnjs.cloudflare.com/ajax/libs/backbone.js/'.$this->version().'/backbone-min.js');
     }
 
     /**
