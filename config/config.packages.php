@@ -82,5 +82,15 @@ return [
     'ValidateInput'           => [Assets\ValidateInput::class, '1.15.0'],
     'Vectormap'               => [Assets\Vectormap::class, '2.0.2'],
     'VideoJs'                 => [Assets\VideoJs::class, '6.4.0'],
+    'Vue'                  => [
+        'class'     => Assets\Vue::class,
+        'version'   => '2.6.10',
+        'integrity' => 'sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=',
+    ],
+    'VueRouter'                  => [
+        'class'     => Assets\VueRouter::class,
+        'version'   => '3.0.7',
+        'integrity' => 'sha256-6tMH70lVyWtoEQCEGNDnofD+Tg1iqdBm0uXvK2Q9zlk=',
+    ],
     'Zip'                     => [Assets\Zip::class, '2.6.1'],
 ];
