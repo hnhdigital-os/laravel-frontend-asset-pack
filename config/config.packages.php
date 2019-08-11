@@ -59,7 +59,7 @@ return [
     'Slimscroll'              => [Assets\Slimscroll::class, '1.3.7'],
     'Sparkline'               => [Assets\Sparkline::class, '2.1.2'],
     'TextDiff'                => [Assets\TextDiff::class, '1.0.4'],
-    'Toastr'                  => [Assets\Toastr::class, 'latest'],
+    'Toastr'                  => [Assets\Toastr::class, '2.1.4'],
     'Select2'                 => [Assets\Select2::class, '4.0.5'],
     'Slick'                   => [Assets\Slick::class, '1.8.1'],
     'Steps'                   => [Assets\Steps::class, '1.1.0'],
