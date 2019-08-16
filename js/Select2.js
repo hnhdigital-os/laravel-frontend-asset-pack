@@ -74,4 +74,24 @@ $.frontendAssets.register('select2', function(event) {
   element.select2(options);
 
   element.trigger('extension::select2::applied');
+
+  $(window).on('before:fadeIn before:show', function() {
+    if (!element.is('visible')) {
+      element.addClass('select2-currently-hidden');
+    } else {
+      element.removeClass('select2-currently-hidden');
+    }
+  });
+
+  $(window).on('after:fadeIn after:show', function() {
+    if (element.hasClass('select2-currently-hidden')
+      && !element.hasClass('select2-currently-hidden-generated')) {
+      element.select2();
+      element.addClass('select2-currently-hidden-generated')
+    }
+
+    if (element.is('visible')) {
+      element.removeClass('select2-currently-hidden');
+    }
+  });
 });
