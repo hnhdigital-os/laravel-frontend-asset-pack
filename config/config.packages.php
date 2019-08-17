@@ -52,7 +52,7 @@ return [
     'MiniColors'              => [Assets\MiniColors::class, '2.2.6'],
     'MultiEmailInput'         => [Assets\MultiEmailInput::class, '0.0.2'],
     'Pace'                    => [Assets\Pace::class, '1.0.2'],
-    'Popper'                  => [Assets\Popper::class, '1.13.0'],
+    'Popper'                  => [Assets\Popper::class, '1.15.0'],
     'Raphael'                 => [Assets\Raphael::class, '2.2.8'],
     'Redactor'                => [Assets\Redactor::class],
     'SignaturePad'            => [Assets\SignaturePad::class, '2.3.2'],
