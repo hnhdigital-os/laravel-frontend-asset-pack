@@ -6,7 +6,7 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 use Html;
 
 /**
- * DateInput.
+ * Dropzone.
  *
  * @link
  */
@@ -17,7 +17,7 @@ class Dropzone extends PackageAbstract
      *
      * @var array
      */
-    public $default = [
+    public static $default_options = [
         'dictDefaultMessage'     => '',
         'dictDefaultMessageHint' => '<u>Drop</u> files here or <u>click</u> to browse.',
         'maxFilesize'            => 0,
@@ -40,8 +40,7 @@ class Dropzone extends PackageAbstract
      */
     public function cdn()
     {
-        $this->add('https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/'.$this->version().'/dropzone.min.js');
-        $this->add('vendor/dropzone.css');
+        $this->add('https://cdnjs.cloudflare.com/ajax/libs/dropzone/'.$this->version().'/min/dropzone.min.js');
     }
 
     /**
@@ -51,8 +50,7 @@ class Dropzone extends PackageAbstract
      */
     public function local()
     {
-        $this->add('vendor/dropzone.js');
-        $this->add('vendor/dropzone.css');
+        $this->cdn();
     }
 
     /**
@@ -74,7 +72,7 @@ class Dropzone extends PackageAbstract
      */
     public static function options($options = [])
     {
-        $options = array_merge($this->default, $options);
+        $options = array_merge(self::$default_options, $options);
 
         if (!empty($options['dictDefaultMessageHint'])) {
             if (!empty($options['dictDefaultMessage'])) {
