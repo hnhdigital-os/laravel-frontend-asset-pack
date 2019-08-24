@@ -4,7 +4,7 @@
 $.frontendAssets.register('dropzone', function(event) {
   var element = $(event.currentTarget);
 
-  if (element.find('.dz-message').length == 0) {
+  if (element.find('.dz-message').length != 0) {
     return;
   }
 
