@@ -4,7 +4,7 @@
 $.frontendAssets.register('dropzone', function(event) {
   var element = $(event.currentTarget);
 
-  if (element.find('.dz-message').length != 0) {
+  if (element.hasClass('dropzone-inited')) {
     return;
   }
 
@@ -20,7 +20,8 @@ $.frontendAssets.register('dropzone', function(event) {
     }
   };
 
-  element.dropzone(options);
+  element.dropzone(options)
+    .addClass('dropzone-inited');
 
   element.trigger('extension::dropzone::applied');
 });
