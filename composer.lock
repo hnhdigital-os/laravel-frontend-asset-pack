@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "050f4836a71b9449d7672ad8c26af0bf",
+    "content-hash": "75425cedb5546d4a72226414d4d98bc0",
     "packages": [
         {
             "name": "hnhdigital-os/laravel-frontend-asset-loader",
-            "version": "2.0.9",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hnhdigital-os/laravel-frontend-asset-loader.git",
-                "reference": "4dd6e10251ad37246265cfdde7aa2d469f3bd09f"
+                "reference": "47a460d2a46eab0e5cb86214f662fe9947993106"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hnhdigital-os/laravel-frontend-asset-loader/zipball/4dd6e10251ad37246265cfdde7aa2d469f3bd09f",
-                "reference": "4dd6e10251ad37246265cfdde7aa2d469f3bd09f",
+                "url": "https://api.github.com/repos/hnhdigital-os/laravel-frontend-asset-loader/zipball/47a460d2a46eab0e5cb86214f662fe9947993106",
+                "reference": "47a460d2a46eab0e5cb86214f662fe9947993106",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.3"
             },
             "require-dev": {
                 "phpmd/phpmd": "~2.0",
@@ -65,9 +65,9 @@
             ],
             "support": {
                 "issues": "https://github.com/hnhdigital-os/laravel-frontend-asset-loader/issues",
-                "source": "https://github.com/hnhdigital-os/laravel-frontend-asset-loader/tree/master"
+                "source": "https://github.com/hnhdigital-os/laravel-frontend-asset-loader/tree/3.0.0"
             },
-            "time": "2020-06-16T14:05:31+00:00"
+            "time": "2021-08-17T04:32:18+00:00"
         }
     ],
     "packages-dev": [

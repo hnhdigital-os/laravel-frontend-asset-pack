@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.3",
-        "hnhdigital-os/laravel-frontend-asset-loader": "^2.0"
+        "hnhdigital-os/laravel-frontend-asset-loader": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^8.3",
