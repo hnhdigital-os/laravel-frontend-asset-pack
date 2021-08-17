@@ -83,7 +83,7 @@ return [
     'ValidateInput'           => [Assets\ValidateInput::class, '1.15.0'],
     'Vectormap'               => [Assets\Vectormap::class, '2.0.2'],
     'VideoJs'                 => [Assets\VideoJs::class, '6.4.0'],
-    'Vue'                  => [
+    'Vue'                     => [
         'class'     => Assets\Vue::class,
         'version'   => '2.6.10',
         'integrity' => 'sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=',

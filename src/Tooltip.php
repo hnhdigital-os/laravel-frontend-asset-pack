@@ -28,7 +28,7 @@ class Tooltip extends PackageAbstract
      */
     public function cdn()
     {
-        $this->add('https://cdnjs.cloudflare.com/ajax/libs/tooltip.js/'.$this->version().'/umd/tooltip.min.js');        
+        $this->add('https://cdnjs.cloudflare.com/ajax/libs/tooltip.js/'.$this->version().'/umd/tooltip.min.js');
     }
 
     /**
