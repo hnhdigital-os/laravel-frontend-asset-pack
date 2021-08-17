@@ -12,10 +12,10 @@ use HnhDigital\LaravelFrontendAssetLoader\PackageAbstract;
 class VueRouter extends PackageAbstract
 {
     /**
-    * Load before.
-    *
-    * @return void
-    */
+     * Load before.
+     *
+     * @return void
+     */
     public function before()
     {
         $this->package('Vue');
