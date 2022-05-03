@@ -73,8 +73,8 @@ class Redactor extends PackageAbstract
 
         $html = sprintf("<script>$('%s').data('toolbar-buttons', %s);</script>", $element, json_encode($buttons));
 
-        if (count($buttons)) {
-            $html .= sprintf("<script>$('%s').data('toolbar-plugins', %s);</script>", $element, json_encode($plugins));
+        if (count(self::$plugins)) {
+            $html .= sprintf("<script>$('%s').data('toolbar-plugins', %s);</script>", $element, json_encode(self::$plugins));
         }
 
         return $html;
@@ -84,22 +84,21 @@ class Redactor extends PackageAbstract
      * Load plugins.
      *
      * @param string $plugin
-     * @param array  &$plugins
      *
      * @return void
      */
-    public static function loadPlugin($plugin, &$plugins)
+    public static function loadPlugin($plugin)
     {
-        if (!in_array($plugin, self::$plugins)) {
+        if (! in_array($plugin, self::$plugins)) {
             return;
         }
 
         static::$loaded_plugins[] = $plugin;
 
-        $this->add('vendor/redactor/'.$plugin.'.js');
+        app('FrontendAsset')->add('vendor/redactor/'.$plugin.'/'.$plugin.'.js');
 
         if ($plugin === 'alignment' || $plugin === 'clips') {
-            $this->add('vendor/redactor/'.$plugin.'.css');
+            app('FrontendAsset')->add('vendor/redactor/'.$plugin.'/'.$plugin.'.css');
         }
     }
 }
