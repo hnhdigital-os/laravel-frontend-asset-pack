@@ -10,13 +10,12 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
-        "hnhdigital-os/laravel-frontend-asset-loader": "^3.0"
+        "php": "^8.0.2",
+        "hnhdigital-os/laravel-frontend-asset-loader": "^4.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.3",
-        "illuminate/database": "^7.0|^8.0",
-        "symfony/process": "^5.0"
+        "phpunit/phpunit": "^9.0",
+        "illuminate/database": "^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -29,7 +28,7 @@
         "process-timeout": 2000,
         "sort-packages": true,
         "platform": {
-            "php": "7.3.0"
+            "php": "8.0.2"
         }
     },
     "extra": {
